@@ -25,7 +25,7 @@ Built with **Next.js**, **Tailwind CSS**
 - 📱 **Mobile-First Design** — Optimized for all screen sizes (from 320px onwards).
 - 🌙 **Light / Dark color palette support** (custom theme-ready).
 - 🔍 **SEO Optimized** — Metadata configured in `layout.tsx`.
-- 
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
