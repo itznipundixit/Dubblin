@@ -16,9 +16,15 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A modern, fully responsive website for **Dubblin**, designed to showcase premium homeware and lifestyle products.  
+Built with **Next.js**, **Tailwind CSS**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ⚡ **Next.js 14 + React 18** — Fast, server-rendered pages.
+- 🎨 **Tailwind CSS** — Modern, responsive design.
+- 🧩 **Reusable Components** — Hero carousel, product cards, Instagram Reels, footer, etc.
+- 📱 **Mobile-First Design** — Optimized for all screen sizes (from 320px onwards).
+- 🌙 **Light / Dark color palette support** (custom theme-ready).
+- 🔍 **SEO Optimized** — Metadata configured in `layout.tsx`.
 
 ## Learn More
 
