@@ -47,6 +47,7 @@ jobs:
       - name: Update ECS service with new image
         uses: aws-actions/amazon-ecs-deploy-task-definition@v2
         with:
+          # UPDATED TASK DEFINITION FILE WITH REDUCED CPU & MEMORY
           task-definition: ecs-task-def.json
           service: ${{ env.ECS_SERVICE }}
           cluster: ${{ env.ECS_CLUSTER }}
