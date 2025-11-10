@@ -1,0 +1,20 @@
+{
+  "family": "dubblin-task",
+  "networkMode": "bridge",
+  "containerDefinitions": [
+    {
+      "name": "dubblin-container",
+      "image": "189115277500.dkr.ecr.us-east-1.amazonaws.com/dubblin:latest",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 3000,
+          "hostPort": 3000
+        }
+      ]
+    }
+  ],
+  "requiresCompatibilities": ["EC2"],
+  "cpu": "256",
+  "memory": "512"
+}
